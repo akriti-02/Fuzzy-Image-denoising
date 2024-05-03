@@ -6,17 +6,25 @@ Using Skfuzzy package from SciKit which is a tool box for SciPy.
 
 
 # Noisy image
-Add noise to the input images or ad noisy input image
+Add noise to the input images or ad noisy input image.
+
+
 ![image](https://github.com/akriti-02/Fuzzy-Image-denoising/assets/142987817/bff30c0b-d930-4186-8c92-29a844fa5e10)
 
 # Create various fuzzy filters for denoising the image 
- •	 Gaussian Fuzzy Filter with Median Centre [GMED]- It combines the concepts of Gaussian smoothing and median filtering with the use of fuzzy logic. 
+ •	 Gaussian Fuzzy Filter with Median Centre [GMED]- It combines the concepts of Gaussian smoothing and median filtering with the use of fuzzy logic.
+
+ 
 ![image](https://github.com/akriti-02/Fuzzy-Image-denoising/assets/142987817/26a67a32-736c-491f-809b-4f589cfce03c)
 
 •	Sigmoidal Fuzzy Function:It is a fundamental concept of fuzzy logic. It models gradual transitions between membership values based on a sigmoid curve. 
+
+
 ![image](https://github.com/akriti-02/Fuzzy-Image-denoising/assets/142987817/17b6f10a-bcff-44f7-9852-d7b3dda3c133)
 
 •	Gaussian Fuzzy Filter with Moving Average Centre [GMAV] - It combines Gaussian smoothening and moving average to reduce the noise from the image while preserving edges and details.
+
+
 ![image](https://github.com/akriti-02/Fuzzy-Image-denoising/assets/142987817/62878b02-0567-4d4f-ae3a-1ee9b3a9ba55)
 
 Hybrid Fuzzy Filter:•	 In our code we combined the components:
@@ -29,3 +37,7 @@ Hybrid Fuzzy Filter:•	 In our code we combined the components:
 
 
 We used PSNR to validate the performance
+
+
+![image](https://github.com/akriti-02/Fuzzy-Image-denoising/assets/142987817/30a55f85-4446-484b-b1a1-f0dfbebcfe86)
+
